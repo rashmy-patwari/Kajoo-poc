@@ -19,6 +19,12 @@
         "runCommand": "start:angular"
       }
     },
+    "transforms": [
+      {
+        "xdtPath": "authoring/platform/app_data/xdts/web.config.xdt",
+        "targetPath": "/web.config"
+      }
+    ],
     "postActions": {
         "actions":{
           "warmUpCm": {
