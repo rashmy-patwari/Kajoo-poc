@@ -1,4 +1,7 @@
 {
+    "deployItems": {
+        "modules": ["Kajoo"]
+    },
     "renderingHosts": {
       "nextjsstarter": {
         "path": "./headapps/nextjs-starter",
@@ -33,9 +36,6 @@
               "/sitecore/shell/Applications/Content%20Editor.aspx?sc_bw=1",
               "/sitecore/client/Applications/Launchpad"
             ]
-          },
-          "scsModules": {
-            "modules": ["Kajoo"]
           },
           "populateSchema": {
             "indexNames": []
