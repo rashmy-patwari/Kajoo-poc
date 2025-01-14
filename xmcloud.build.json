@@ -34,6 +34,9 @@
               "/sitecore/client/Applications/Launchpad"
             ]
           },
+          "scsModules": {
+            "modules": ["Kajoo"]
+          },
           "populateSchema": {
             "indexNames": []
           },
