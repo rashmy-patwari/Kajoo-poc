@@ -43,20 +43,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Azure.Core">
-      <HintPath>..\..\KajooReferences\Azure.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Azure.Core.Amqp">
-      <HintPath>..\..\KajooReferences\Azure.Core.Amqp.dll</HintPath>
-    </Reference>
-    <Reference Include="Azure.Messaging.ServiceBus">
-      <HintPath>..\..\KajooReferences\Azure.Messaging.ServiceBus.dll</HintPath>
-    </Reference>
     <Reference Include="Kajoo.Feature.Api">
       <HintPath>..\..\KajooReferences\Kajoo.Feature.Api.dll</HintPath>
     </Reference>
     <Reference Include="Kajoo.Feature.Deployment">
       <HintPath>..\..\KajooReferences\Kajoo.Feature.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="Kajoo.Feature.Forms">
+      <HintPath>..\..\KajooReferences\Kajoo.Feature.Forms.dll</HintPath>
     </Reference>
     <Reference Include="Kajoo.Feature.Login">
       <HintPath>..\..\KajooReferences\Kajoo.Feature.Login.dll</HintPath>
@@ -73,20 +67,11 @@
     <Reference Include="Kajoo.Foundation.Messaging">
       <HintPath>..\..\KajooReferences\Kajoo.Foundation.Messaging.dll</HintPath>
     </Reference>
-    <Reference Include="Kajoo.Foundation.PostDeployment">
-      <HintPath>..\..\KajooReferences\Kajoo.Foundation.PostDeployment.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.Amqp">
-      <HintPath>..\..\KajooReferences\Microsoft.Azure.Amqp.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Memory.Data">
-      <HintPath>..\..\KajooReferences\System.Memory.Data.dll</HintPath>
-    </Reference>
     <Reference Include="System.Web" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.DynamicData" />
@@ -108,6 +93,7 @@
     <Content Include="App_Config\Include\Kajoo\Kajoo.Feature.Api.EventHandler.config" />
     <Content Include="App_Config\Include\Kajoo\Kajoo.Feature.Api.GraphQl.config" />
     <Content Include="App_Config\Include\Kajoo\Kajoo.Feature.Deployment.config" />
+    <Content Include="App_Config\Include\Kajoo\Kajoo.Feature.Forms.config" />
     <Content Include="App_Config\Include\Kajoo\Kajoo.Feature.Login.Hosts.config" />
     <Content Include="App_Config\Include\Kajoo\Kajoo.Foundation.Common.config" />
     <Content Include="App_Config\Include\Kajoo\Kajoo.Foundation.Messaging.config" />
